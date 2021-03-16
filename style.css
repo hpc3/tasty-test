@@ -1,0 +1,23 @@
+:root{
+    --squareDegree:90deg;
+    --circleDegree:270deg;
+    --circleDiameter:100vh
+}
+
+
+#square{
+
+    background: linear-gradient(var(--squareDegree), rgba(255,84,217,1) 0%, rgba(0,255,254,1) 100%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle{
+    background: linear-gradient(var(--circleDegree), rgba(255,84,217,1) 0%, rgba(0,255,254,1) 100%);
+    height: var(--circleDiameter);
+    width: var(--circleDiameter);
+    border-radius: 50%;
+}
